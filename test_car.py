@@ -51,3 +51,6 @@ class TestBrake(TestCar):
            for _ in range(3):
                self.car.brake()
            self.assertEqual(self.car.speed, 0)
+
+if __name__ == '__main__':
+    unittest.main()
